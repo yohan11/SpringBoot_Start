@@ -1,0 +1,7 @@
+<form action="/members/update" method="post">
+    <input type="hidden" name="id" value="{{id}}">
+    <input type="text" name="email" value="{{member.email}}">
+    <textarea name="content">{{member.password}}</textarea>
+    <button type="submit">수정완료</button>
+    <a href="/members/{{member.id}}">Back</a>
+</form>

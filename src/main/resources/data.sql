@@ -1,0 +1,15 @@
+INSERT INTO ARTICLE(id,title,content) VALUES (1,'aaaa', '1111');
+INSERT INTO ARTICLE(id,title,content) VALUES (2,'vbbbb', '2222');
+INSERT INTO ARTICLE(id,title,content) VALUES (3,'asfsa', '33333');
+INSERT INTO article(id,title,content) VALUES (4,'당신의 인생영화', '댓글 고');
+INSERT INTO article(id,title,content) VALUES (5,'당신의 소울푸드는?', '댓글 고');
+INSERT INTO article(id,title,content) VALUES (6,'당신의 취미는?', '댓글 고');
+INSERT INTO comment(article_id,nickname,body) VALUES (4,'Park','Good will hunting');
+INSERT INTO comment(article_id,nickname,body) VALUES (4,'KIm','Twilight');
+INSERT INTO comment(article_id,nickname,body) VALUES (4,'Hong','I am Sam');
+INSERT INTO comment(article_id,nickname,body) VALUES (5,'KIM','Pasta');
+INSERT INTO comment(article_id,nickname,body) VALUES (5,'Lee','Pudding');
+INSERT INTO comment(article_id,nickname,body) VALUES (5,'Hong','QQQ');
+INSERT INTO comment(article_id,nickname,body) VALUES (6,'QW','asdsad');
+INSERT INTO comment(article_id,nickname,body) VALUES (6,'RR','Tdsad');
+INSERT INTO comment(article_id,nickname,body) VALUES (6,'SSD','asdasd');

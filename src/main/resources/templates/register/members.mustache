@@ -1,0 +1,23 @@
+
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="row">id</th>
+        <td colspan="2">이메일</td>
+        <td>패스워드</td>
+    </tr>
+
+    </thead>
+    <tbody>
+
+    {{#memberList}}
+        <tr>
+            <th scope="col">{{id}}</th>
+            <th scope="col">{{email}}</th>
+            <th scope="col">{{password}}</th>
+        </tr>
+    {{/memberList}}
+    </tbody>
+</table>
+
+
